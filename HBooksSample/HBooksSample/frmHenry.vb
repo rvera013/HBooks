@@ -73,7 +73,10 @@ Public Class frmMain
     End Sub
 
     Private Sub btnSearch_Click(sender As Object, e As EventArgs) Handles btnSearch.Click
+        blnErrors = False
+        dgrInventory.DataSource = Nothing
         Dim params As New ArrayList
+        dgrInventory.AutoSizeColumnsMode = DataGridViewAutoSizeColumnMode.Fill
         errP.Clear()
         If txtVal.Text.Length = 0 Then 'missing search value' 
             errP.SetError(txtVal, "You must enter a search value here")
@@ -98,7 +101,7 @@ Public Class frmMain
                 sqlDA = myDB.getDataAdapter("dbo.sp_getBranchList", params)
             Case "Publisher Name"
                 params.Add(New SqlParameter("@Publisher", txtVal.Text))
-                sqlDA = myDB.getDataAdapter("dbo.sp_GetInventoryInfo", params)
+                sqlDA = myDB.getDataAdapter("dbo.sp_getPubisherNameSpecifics", params)
             Case Else
                 MessageBox.Show("invalid table name in btnSearch click event", "program error", MessageBoxButtons.OK, MessageBoxIcon.Error)
 
@@ -118,6 +121,7 @@ Public Class frmMain
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        txtVal.Clear()
         dgrInventory.DataSource = Nothing
         cboTable.SelectedIndex = -1
         cboSearch.SelectedIndex = -1
