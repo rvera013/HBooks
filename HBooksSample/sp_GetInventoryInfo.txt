@@ -1,0 +1,14 @@
+CREATE PROC sp_GetInventoryInfo @Title varchar(40) = null, @Author varchar(40) = null, @Branch varchar(50) = null, @Publisher varchar(25) = null
+as
+
+select * from Book b
+inner join WROTE w on b.BOOK_CODE = w.BOOK_CODE
+inner join Author a on a.Author_num = w.author_num
+inner join publisher p on p.publisher_code = b.publisher_code
+inner join inventory i on i.book_code = b.book_code
+inner join branch br on br.branch_num = i.branch_num
+where b.title like '%' + isnull(@Title,b.title) + '%'
+and (a.Author_Last like '%' + isnull(@Author,a.Author_Last) + '%'
+or a.Author_First like '%' + isnull(@Author,a.Author_First) + '%')
+and br.branch_name like '%' + isnull(@Branch,br.branch_Name) + '%'
+and p.publisher_name like '%' + isnull(@publisher,p.publisher_name) + '%'

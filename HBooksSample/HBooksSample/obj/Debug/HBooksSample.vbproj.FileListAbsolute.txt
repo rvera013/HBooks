@@ -1,0 +1,24 @@
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\bin\Debug\HBooksSample.exe.config
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\bin\Debug\HBooksSample.exe
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\bin\Debug\HBooksSample.pdb
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\bin\Debug\HBooksSample.xml
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.vbprojAssemblyReference.cache
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.frmMain.resources
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.Resources.resources
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.vbproj.GenerateResource.cache
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.vbproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.exe
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.xml
+C:\Users\Owner\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.pdb
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\bin\Debug\HBooksSample.exe.config
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\bin\Debug\HBooksSample.exe
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\bin\Debug\HBooksSample.pdb
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\bin\Debug\HBooksSample.xml
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.vbproj.AssemblyReference.cache
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.frmMain.resources
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.Resources.resources
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.vbproj.GenerateResource.cache
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.vbproj.CoreCompileInputs.cache
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.exe
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.xml
+C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooksSample\obj\Debug\HBooksSample.pdb

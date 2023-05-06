@@ -1,0 +1,5 @@
+﻿CREATE PROCEDURE [dbo].sp_getBooksWritten
+
+AS
+	SELECT * from WROTE order by BOOK_CODE, AUTHOR_NUM,SEQUENCE
+RETURN 0
