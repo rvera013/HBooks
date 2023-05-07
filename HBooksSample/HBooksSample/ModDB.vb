@@ -6,7 +6,7 @@
 Module ModDB
     Public objSQLConn As SqlConnection
     Public objSQLCommand As SqlCommand
+    Private strCurrDir As String = Application.StartupPath.Replace("HBooksSample\bin\Debug", "")
     Public gstrConn As String = "Data Source=(LocalDB)\
-MSSQLLocalDB;AttachDbFilename=C:\Users\Roberto Casadiego\source\repos\HBooksSample\HBooks_2019.mdf;Integrated Security=True"
+MSSQLLocalDB;AttachDbFilename=" & strCurrDir & "HBooks_2019.mdf;Integrated Security=True"
 End Module
-'C:\Users\Roberto Casadiego\source\repos\HBooksSample'
