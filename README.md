@@ -9,6 +9,7 @@ After hitting the "Show Data" button, the user will see a table corresponding to
 ![My Image](HBooksSample/HbooksDemo2.png)
 <br>
 User can also search for specific values given an input, which will show all the values in the different tables that have the corresponding input in them. In the example below, the screen shows branch names in the database with the letter A in it.
+<br>
 ![My Image](HBooksSample/HbooksDemo3.png)
 ### Features
 - Dropdown menu with different options that correspond to the SQL tables in the database.
